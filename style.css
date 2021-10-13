@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: #ebedee;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  background: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0.2rem 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .sidebar .logo {
+  border-bottom: 3px solid #ebedee;
+}
+.wrapper .sidebar .image {
+  height: 45px;
+  width: 40px;
+  margin: 14px 10px 14px 10px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+.wrapper .sidebar ul li a {
+  color: #6e848d;
+  display: block;
+  align-items: center;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 30px;
+}
+
+.wrapper .sidebar ul li:hover {
+  background: #bbcfdf;
+  border-left: 5px solid #51b1ff;
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: black;
+}
+
+.wrapper .main-content {
+  margin-left: 10%;
+  width: 100%;
+  justify-content: center;
+}
+
+.wrapper .main-content .header {
+  background: #ffffff;
+  height: 90px;
+}
+
+.wrapper .main-content .content .videos {
+  color: #6e848d;
+  font-weight: bold;
+  padding: 30px;
+}
+.wrapper .main-content .content input {
+  padding: 30px;
+  margin-left: 30px;
+  border-style: none;
+  border-radius: 7px;
+  color: #3f3f3f;
+  text-align: justify;
+  height: 20px;
+  width: 60vw;
+  font-weight: bold;
+}
+
+.wrapper .main-content .content p {
+  align-items: center;
+  margin: 10px;
+}
+.wrapper .main-content .content button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #3f3f3f;
+  font-weight: bold;
+}
+
+.wrapper .main-content .content .button-left {
+  margin-left: 190px;
+  margin-top: 15px;
+}
+.wrapper .main-content .content .videos .fas {
+  margin-right: 5px;
+}
